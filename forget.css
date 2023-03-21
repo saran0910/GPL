@@ -1,0 +1,382 @@
+/* body{
+    background:#333;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    width: 360px;
+    height: 600px;
+    background: url(forget1.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+
+}
+
+#alert
+{
+    height: auto;
+    width: 100%;
+    background: #83032c3b;
+    padding: 0 15px;
+    font-size: 19px;
+    line-height: 20px;
+    margin: 10px 0;
+    color: #000;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+.container.h2{
+    font-size: 40px;
+    margin-top: 125px;
+    margin-bottom: 60px;
+
+}
+
+.tbox{
+    width: 260px;
+    height: 40px;
+    background: #0a090937;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.tbox input{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 90%;
+    line-height: 37px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    color: #f7f8f7;
+
+
+}
+
+.btn{
+    width: 260px;
+    height: 40px;
+    background: #11101074;
+    border-radius: 10px;
+    margin: 14px auto;
+    display: block;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    border: none;
+    color: rgb(31, 211, 7);
+    cursor: pointer;
+
+
+}
+
+#change
+{
+    height: auto;
+    width: 100%;
+    background: #06f41a3b;
+    padding: 0 15px;
+    font-size: 19px;
+    line-height: 20px;
+    margin: 10px 0;
+    color: #000;
+    border-radius: 4px;
+    text-align: center;
+
+} */
+
+
+
+/* body{
+    background:#333;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    width: 360px;
+    height: 600px;
+    background: url(pic51.jpeg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+
+}
+
+.container.h2{
+    font-size: 40px;
+    margin-top: 125px;
+    margin-bottom: 60px;
+
+}
+
+.tbox{
+    width: 260px;
+    height: 40px;
+    background: #0a090937;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.tbox input{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 90%;
+    line-height: 37px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    color: #f7f8f7;
+
+
+}
+
+.btn{
+    width: 260px;
+    height: 40px;
+    background: #11101074;
+    border-radius: 10px;
+    margin: 14px auto;
+    display: block;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    border: none;
+    color: rgb(31, 211, 7);
+    cursor: pointer;
+
+
+}
+
+.b1{
+    display: block;
+    width: 260px;
+    padding: 10px 0;
+    text-decoration: none;
+    color: rgb(241, 9, 21);
+    text-align: center;
+    margin: auto;
+    transition: 0.4s all;
+
+}
+
+#alert
+{
+    height: auto;
+    width: 100%;
+    background: #83032c3b;
+    padding: 0 15px;
+    font-size: 19px;
+    line-height: 20px;
+    margin: 10px 0;
+    color: #000;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+a:hover{
+    background: #00000040;
+}
+
+
+#incorrect
+{
+    height: auto;
+    width: 100%;
+    background: #d84e0e3b;
+    padding: 0 15px;
+    font-size: 19px;
+    line-height: 20px;
+    margin: 10px 0;
+    color: #000;
+    border-radius: 4px;
+    text-align: center;
+
+} */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    background: url('pic52.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.forget label input{
+    margin-right: 3px;
+    
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+
+
+
+#alert
+{
+    height: auto;
+    width: 100%;
+    background: #83032c3b;
+    padding: 0 15px;
+    font-size: 19px;
+    line-height: 20px;
+    margin: 10px 0;
+    color: #000;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+
+
+
+
+.btn{
+    width: 260px;
+    height: 40px;
+    background: #11101074;
+    border-radius: 10px;
+    margin: 14px auto;
+    display: block;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    border: none;
+    color: rgb(31, 211, 7);
+    cursor: pointer;
+
+
+}
+
+
+#change
+{
+    height: auto;
+    width: 100%;
+    background: #06f41a3b;
+    padding: 0 15px;
+    font-size: 19px;
+    line-height: 20px;
+    margin: 10px 0;
+    color: #000;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
